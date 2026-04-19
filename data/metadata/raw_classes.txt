@@ -1,0 +1,82 @@
+apple black rot
+apple mosaic virus
+apple rust
+apple scab
+banana anthracnose
+banana black leaf streak
+banana bunchy top
+basil downy mildew
+bean mosaic virus
+bean rust
+bell pepper blossom end rot
+bell pepper powdery mildew
+blueberry anthracnose
+blueberry rust
+broccoli alternaria leaf spot
+broccoli downy mildew
+cabbage alternaria leaf spot
+cabbage black rot
+cabbage downy mildew
+cauliflower alternaria leaf spot
+celery anthracnose
+celery early blight
+cherry leaf spot
+cherry powdery mildew
+citrus canker
+citrus greening disease
+coffee berry blotch
+coffee black rot
+coffee leaf rust
+corn gray leaf spot
+corn northern leaf blight
+corn rust
+corn smut
+cucumber angular leaf spot
+cucumber bacterial wilt
+cucumber powdery mildew
+garlic rust
+ginger leaf spot
+ginger sheath blight
+grape black rot
+grape downy mildew
+grape leaf spot
+lettuce downy mildew
+lettuce mosaic virus
+maple tar spot
+peach anthracnose
+peach brown rot
+peach leaf curl
+peach rust
+peach scab
+plum brown rot
+plum rust
+potato early blight
+potato late blight
+raspberry leaf spot
+rice sheath blight
+soybean brown spot
+soybean downy mildew
+soybean frog eye leaf spot
+soybean mosaic
+soybean rust
+squash powdery mildew
+strawberry anthracnose
+tobacco brown spot
+tobacco mosaic virus
+tomato bacterial leaf spot
+tomato early blight
+tomato late blight
+tomato leaf mold
+tomato mosaic virus
+tomato septoria leaf spot
+wheat bacterial leaf streak (black chaff)
+wheat head scab
+wheat leaf rust
+wheat loose smut
+wheat powdery mildew
+wheat septoria blotch
+wheat stem rust
+wheat stripe rust
+zucchini bacterial wilt
+zucchini downy mildew
+zucchini powdery mildew
