@@ -114,6 +114,7 @@ def run_name(cfg: dict) -> str:
 
 
 # ─── TRAIN ONE EPOCH ──────────────────────────────────────────────────────────
+from tqdm import tqdm
 
 def train_epoch(
     model      : nn.Module,
@@ -135,6 +136,8 @@ def train_epoch(
     correct    = 0
     total      = 0
 
+    pbar = tqdm(loader, desc=f"S{stage} train", leave=False, unit="batch")
+
     for images, labels in loader:
         images = images.to(device, non_blocking=True)
         labels = labels.to(device, non_blocking=True)
@@ -155,6 +158,8 @@ def train_epoch(
         preds       = logits.argmax(dim=1)
         correct    += (preds == labels).sum().item()
         total      += images.size(0)
+
+        pbar.set_postfix(loss=f"{loss.item():.4f}")
 
     return total_loss / total, correct / total
 
