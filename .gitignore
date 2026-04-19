@@ -208,7 +208,6 @@ __marimo__/
 
 # Data
 data/raw/
-data/processed/
 
 # Model weights
 models/*.pt

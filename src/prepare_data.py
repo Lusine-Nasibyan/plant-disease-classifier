@@ -97,7 +97,7 @@ def build_csv(
             for img_path in images:
                 rows.append({
                     "split":          split_name,
-                    "image_path":     img_path.as_posix(),
+                    "image_path":     "image_path": str(img_path.relative_to(Path.cwd())).replace("\\", "/"),
                     "original_class": class_dir.name,
                     "disease_label":  disease,
                 })
