@@ -12,7 +12,7 @@ jobs:
       - uses: huggingface/hub-sync@v0.1.0
         with:
           github_repo_id: ${{ github.repository }}
-          huggingface_repo_id: YOUR_HF_USERNAME/plant-disease-api
+          huggingface_repo_id: Lusinen2004/plant-disease-api
           hf_token: ${{ secrets.HF_TOKEN }}
           repo_type: space
           space_sdk: docker
